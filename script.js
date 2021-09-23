@@ -1,20 +1,41 @@
-function ten(callback) {
+function one(callback) {
   setTimeout(() => {
-      document.getElementById("myid").innerHTML = 10;
+      document.getElementById("myid").innerHTML = 1;
+    callback();
+  }, 1000);
+};
+function two(callback) {
+  setTimeout(() => {
+      document.getElementById("myid").innerHTML = 2;
+    callback();
+  }, 1000);
+};
+function three(callback) {
+  setTimeout(() => {
+      document.getElementById("myid").innerHTML = 3;
+    callback();
+  }, 1000);
+};
+function four(callback) {
+  setTimeout(() => {
+      document.getElementById("myid").innerHTML = 4;
+    callback();
+  }, 1000);
+};
+function five(callback) {
+  setTimeout(() => {
+      document.getElementById("myid").innerHTML = 5;
     callback();
   }, 1000);
 };
 
-function nine(callback) {
-  setTimeout(() => {
-      document.getElementById("myid").innerHTML = 9;
-    callback();
-  }, 1000);
-};
 
-function eight(callback) {
+
+
+
+function six(callback) {
   setTimeout(() => {
-      document.getElementById("myid").innerHTML = 8;
+      document.getElementById("myid").innerHTML = 6;
     callback();
   }, 1000);
 };
@@ -26,49 +47,26 @@ function seven(callback) {
   }, 1000);
 };
 
-function six(callback) {
+function eight(callback) {
   setTimeout(() => {
-      document.getElementById("myid").innerHTML = 6;
+      document.getElementById("myid").innerHTML = 8;
     callback();
   }, 1000);
 };
 
-function five(callback) {
+function nine(callback) {
   setTimeout(() => {
-      document.getElementById("myid").innerHTML = 5;
+      document.getElementById("myid").innerHTML = 9;
     callback();
   }, 1000);
 };
 
-function four(callback) {
+function ten(callback) {
   setTimeout(() => {
-      document.getElementById("myid").innerHTML = 4;
+      document.getElementById("myid").innerHTML = 10;
     callback();
   }, 1000);
 };
-
-function three(callback) {
-  setTimeout(() => {
-      document.getElementById("myid").innerHTML = 3;
-    callback();
-  }, 1000);
-};
-
-function two(callback) {
-  setTimeout(() => {
-      document.getElementById("myid").innerHTML = 2;
-    callback();
-  }, 1000);
-};
-
-function one(callback) {
-  setTimeout(() => {
-      document.getElementById("myid").innerHTML = 1;
-    callback();
-  }, 1000);
-};
-
-
 
 ten(() => {
   nine(() => {
@@ -82,7 +80,7 @@ ten(() => {
                                   one(() => {
                                       setTimeout(() =>{
                                           document.getElementById("myid").innerHTML = "Happy Independence Day";
-                                      }, 1000);                                        
+                                      }, 2000);                                        
                                   })
                               })
                           })
