@@ -29,10 +29,6 @@ function five(callback) {
   }, 1000);
 };
 
-
-
-
-
 function six(callback) {
   setTimeout(() => {
       document.getElementById("myid").innerHTML = 6;
